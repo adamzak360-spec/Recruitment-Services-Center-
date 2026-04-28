@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useRoute } from "wouter";
 import { Button } from "@/components/ui/button";
-import { MapPin, Briefcase, DollarSign, Clock, ArrowLeft } from "lucide-react";
+import { MapPin, Briefcase, Clock, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
 import { toast } from "sonner";
 
@@ -267,7 +267,7 @@ Requirements:
                 </div>
                 <div className="bg-gray-50 rounded-lg p-4">
                   <div className="flex items-center gap-2 text-[#F59E0B] mb-2">
-                    <DollarSign className="w-4 h-4" />
+                    <span className="font-bold">GHS</span>
                     <span className="text-sm font-medium">Salary</span>
                   </div>
                   <p className="font-semibold text-gray-900">{job.salary}</p>

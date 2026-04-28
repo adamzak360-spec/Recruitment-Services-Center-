@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { MapPin, Briefcase, DollarSign, Clock } from "lucide-react";
+import { MapPin, Briefcase, Clock } from "lucide-react";
 
 /**
  * Jobs Page
@@ -220,7 +220,7 @@ export default function Jobs() {
                           {job.type}
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <DollarSign className="w-4 h-4 text-[#F59E0B]" />
+                          <span className="text-[#F59E0B] font-bold">GHS</span>
                           {job.salary}
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
